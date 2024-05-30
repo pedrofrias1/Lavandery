@@ -1,0 +1,18 @@
+[
+    {
+        "lavado":"lavado simple",
+        "precio":8000
+    },
+    {
+        "lavado":"lavado de motor",
+        "precio":6500
+    },
+    {
+        "lavado":"lavado completo",
+        "precio":1200
+    },
+    {
+        "lavado":"lavado de tapizados",
+        "precio":17000
+    }
+]

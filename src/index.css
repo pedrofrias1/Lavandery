@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* nav */
+.nav-bar{
+    background: #0096c7;
+    padding: 15px 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bi-house-door{
+    font-size: 2rem;
+    color: white;
+}
+.fs-3{
+    color: #fff;
+    padding: 5px;
+}
+/* home */
+.div-clientes{
+    width: 500px;
+    height: 400px;
+    overflow: scroll;
+}
+.new-client{
+    border: 1px solid #0096c7;
+    border-radius: 8px ;
+    box-shadow: 2px 2px 2px gray;
+    width: 25vh;
+    padding: 4px;
+    position: static;
+}
+.new-client:hover{
+    background-color: #0096c7;
+    font-weight: 700;
+}
+.send:hover{
+    background-color: #0096c7;
+    font-weight: 700;
+}
+.new-client , .send{
+    cursor: pointer;
+    background: transparent;
+}
+/* clientes */
+.bi-whatsapp{
+    color: #007f5f;
+}
+.name{
+    color: #0096c7;
+}
+.header-lavado{
+    border: 1px solid #0096c7;
+    box-shadow: 2px 2px 2px grey;
+}
+.d-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20vh;
+}
+/* formulario */
+.formularios{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: baseline;
+}
+.formularios input{
+    padding: 4.5px;
+}
+.formularios input , .select-car , .formularios{
+    text-align: center;
+}
+.send{
+    border-radius: 12px;
+    padding: 4px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    /* background: transparent; */
+}
+.select-car{
+    padding: 5px 8vh;
+}
+option:hover{
+    background-color: #791062;
+}
+.forms{
+    border: 1px solid #0096c7;
+    padding: 5px 10px;
 }
